@@ -3,3 +3,41 @@
     font-family: Helvetica, sans-serif;
     font-size: 150%;
 }
+
+#movieBox{
+    color: white;
+}
+
+p{
+    color: orange;
+}
+
+#listMovies{
+    color: white;
+}
+
+h2{
+    color: yellow;
+}
+
+#legendTitle{
+    background-color: orange;
+}
+
+#movieDirectory{
+    background-color: orange;
+}
+
+#questionsFieldset{
+    background: black;
+    background-color: black;
+}
+
+#directoryFieldset{
+    background: black;
+    background-color: black;
+}
+
+#form1{
+    color: white;
+}
