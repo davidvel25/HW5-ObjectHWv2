@@ -3,21 +3,56 @@
 
 <head>
     <meta charset="utf-8">
-    <title>starter code</title>
+    <title>HW5-ObjectHWv2</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<h2>starter project</h2>
+<h2>Movie Ratings</h2>
 
-<button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
+<div id="questions">
+    <fieldset>
+        <div id="legendTitle">
+            <legend>Please rate your movies</legend>
+        </div>
+
+        <div id="form1">
+            <form>
+                <label for="movieName">Name of Movie: </label>
+                <input type="text" id="movieName" name="movieName"><br><br>
+                <label for="movieRating">Your Rating (1 to 5): </label>
+                <select name="movieRating" id="movieRating">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+                <button type="button" id="addMovie">Add Movie</button>
+                <button type="button" id="showMovies">Show Movies</button>
+            </form>
+        </div>
+    </fieldset>
 </div>
 
-<script src="script.js"></script>
+<div id="errorMessage">
+
+</div>
+
+
+<fieldset>
+    <div id="movieDirectory">
+        <legend>Movie Rating Directory</legend>
+    </div>
+    <div id="movieBox">
+        <ul id="listMovies">
+            <!-- <li><p>Movie1 with rating 5</p></li> -->
+        </ul>
+    </div>
+</fieldset>
+<script src="movie.js"></script>
+<script src="main.js"></script>
 </body>
 
 </html>
